@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    border: border-box;
+    font-family: ubuntu;
+}
+body{
+    background-color: antiquewhite;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.nav-logo{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url("spotify_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;    
+}
+.logo-text{
+    font-family: borel;
+    font-weight: 700;
+    font-size: large;
+    margin-left: 0.5rem;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.container{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 4rem;
+}
+.time{
+    margin-left: 1rem;
+}
+.music-container{
+    height: 33.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features{
+    background-color: black;
+    position: sticky;
+    height: 31.7rem;
+    width: 70rem;
+    margin: 1rem 13rem;
+    background-image: url("bgimg.jpg");
+    background-size: 95%;
+}
+.player{
+    position: sticky;
+    background-color: black;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#progressbar{
+    width: 70rem;
+    cursor: pointer;
+}
+.icon{
+    margin-top: 1rem;
+}
+.icon i{
+    cursor: pointer;
+}
+.song-list{
+    background-color: rgb(12, 95, 22);
+    position: sticky;
+    height: 33px;
+    display: flex;
+    color: white;
+    width: 30%;
+    margin: 1rem 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2rem;
+
+}
+.song-list img{
+    width: 2rem;
+    border-radius: 2rem;
+}
+.fa-solid{
+    cursor: pointer;
+}
+.song-info{
+    color: white;
+    position: absolute;
+    left: 10vw;
+}
+.song-info img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
